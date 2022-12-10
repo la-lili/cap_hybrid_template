@@ -7,7 +7,7 @@
 - Typescript.
 - State management with Pinia.
 - Vite plugins: PWA, File based routing, Autoimport, VueI18n, Preview.
-- Capacitor APIs: core, camera, filesystem, hapotics, splash screen, status bar, Sqlite.
+- Capacitor APIs: core, device, camera, filesystem, haptics, splash screen, status bar, keyboard, preferences, sqlite.
 - Awesome cordova plugins:  Social sharing, Wonder Push, Core.
 
 Start the dev server
