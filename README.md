@@ -4,6 +4,7 @@
 - Ionic UI KIT.
 - Tailwind CSS / Postcss / SASS.
 - Vue 3 + Vite .
+- Typescript.
 - State management with Pinia.
 - Vite plugins: PWA, File based routing, Autoimport, VueI18n, Preview.
 - Capacitor APIs: core, camera, filesystem, hapotics, splash screen, status bar, Sqlite.
