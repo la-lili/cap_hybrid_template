@@ -1,0 +1,113 @@
+button:
+  about: About
+  back: Back
+  go: GO
+  home: Home
+  toggle_dark: Toggle dark mode
+  toggle_langs: Change languages
+  toggle_push_notifications: Toggle push notifications
+  edit: Edit
+  delete: Delete
+  unlink: Unlink
+  menu: Menu
+alert:
+  fill_required_fields: Fill required fields
+intro:
+  desc: Opinionated Vite Starter Template
+  dynamic-route: Demo of dynamic route
+  hi: Hi, {name}!
+  aka: Also known as
+  whats-your-name: What's your name?
+not-found: Not found
+text:
+  about: About
+  photo: Photo
+  nuc: UCN
+  tracker: Tracker
+  names: Names
+  lastNames: Last names
+  name: Name
+  lastName: Last name
+  linkTracker: Link Tracker
+  new: New
+  search: Search
+  details: Details
+  rowsPerPage: Rows per page
+  dashboard: Dashboard
+  map: Map
+  linkTrackers: Link trackers
+  formWindowTitle: Input form
+  newEntry: New entry
+  country: Country
+  upTo: Up to
+  orDragAndDrop: or drag and drop
+  uploadAFile: Upload a file
+  emergencyPhone: Emergency phone
+  personalPhone: Device Phone
+  age: Age
+  zipPostalCode: Zip / Postal code
+  stateProvince: State / Province
+  city: City
+  streetAddress: Street address
+  profile: Profile
+  locate: Locate
+  settings: Settings
+  noAvailableData: No Available Data
+  label: Label
+  id: Id
+  model: Model
+  save: Save
+  cancel: Cancel
+  address: Address
+  tracker_ids: Tracker ids
+  vehicle: Vehicle
+  plate: Plate
+  year: Year
+  owned: Owned
+  secondLastName: Second Last Name
+  update: Update
+  notifications: Notifications
+  notification: Notification
+  login: Login
+  username: Username
+  lastUpdate: Last Update
+  devices: Devices
+  control: Control
+  eventHistory: Event History 
+  batteryLevel: Battery Level 
+  movementStatus: Movement Status
+  status: Status
+  loading: Loading
+  useCaseEntity: Use Case Entity
+  susceptibleEntity: Susceptible Entity
+  expand: Expandir
+  currentAddress: Current address
+  description: Description
+  success: Success
+  failure: Failure
+  signin: Sign in
+  signup: Sign up
+  createAnAccount: Create an account
+  logInAccount: Log into your account
+  password: Password
+  register: Register
+  go: Go
+  lobby: Lobby
+  enter: Enter
+  logoff: Log off
+  social: Social
+  player: Player
+  play: Play
+  world: World
+  chat: Chat
+  mail: Mail
+  friends: Friends
+  inventory: Inventory
+  skill: Skill
+  stats: Stats
+  menu: Menu
+  safe: Safe
+  welcome: Welcome
+errors:
+  required: This field is required
+  notFound: Not found

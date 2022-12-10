@@ -1,0 +1,88 @@
+button:
+  about: Acerca de
+  back: Atrás
+  go: Ir
+  home: Inicio
+  toggle_dark: Alternar modo oscuro
+  toggle_langs: Cambiar idiomas
+  toggle_push_notifications: Alternar notificationes emergentes
+  edit: Editar
+  delete: Eliminar
+  menu: Menú
+alert:
+  fill_required_fields: Llenar campos obligatorios
+intro:
+  desc: Plantilla de Inicio de Vite Dogmática
+  dynamic-route: Demo de ruta dinámica
+  hi: ¡Hola, {name}!
+  aka: También conocido como
+  whats-your-name: ¿Cómo te llamas?
+not-found: No se ha encontrado
+text:
+  about: Acerca de
+  photo: Foto
+  nuc: NUC
+  tracker: Rastreador
+  names: Nombres
+  lastNames: Apellidos
+  name: Nombre
+  lastName: Apellidos
+  linkTracker: Enlazar dispositivoS
+  new: Nuevo
+  search: Buscar
+  details: Detalles
+  rowsPerPage: Filas por pagina
+  dashboard: Tablero
+  map: Mapa
+  linkTrackers: Vincular rastreadores
+  newEntry: Formulario de captura
+  country: País
+  upTo: Maximo
+  orDragAndDrop: o arrastrar y soltar
+  uploadAFile: Subir un archivo
+  emergencyPhone: Teléfono de emergencia
+  personalPhone: Teléfono del dispositivo
+  age: Edad
+  zipPostalCode: Zip / Código postal
+  stateProvince: Estado
+  city: Ciudad
+  streetAddress: Calle y número
+  profile: Perfil
+  locate: Localizar
+  settings: Ajustes
+  noAvailableData: Sin datos disponibles
+  label: Etiqueta
+  id: Matrícula
+  model: Modelo
+  save: Guardar
+  cancel: Cancelar
+  address: Domicilio
+  tracker_ids: Rastreador Ids
+  vehicle: Vehículo
+  plate: Placa / Matrícula
+  year: Año
+  owned: Propio
+  secondLastName: Segundo apellido
+  update: Actualizar
+  notifications: Notificaciones
+  notification: Notificación
+  login: Iniciar sesión
+  username: Nombre de usuario
+  lastUpdate: Ultima actualización
+  devices: Dispositivos
+  control: Control
+  eventHistory: Historial de eventos
+  batteryLevel: Nivel de batería
+  movementStatus: Estado de movimiento
+  status: Estado
+  loading: Cargando
+  useCaseEntity: Entidad de caso de uso
+  susceptibleEntity: Entidad susceptible
+  expand: Expandir
+  currentAddress: Ubicaciòn del dispositivo
+  description: Descripciòn
+  success: Èxito 
+  failure: Error
+errors:
+  required: Este campo es obligatorio
+  notFound: No encontrado

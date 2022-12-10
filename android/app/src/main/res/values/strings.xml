@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Capacitor App Template</string>
+    <string name="title_activity_main">Capacitor App Template</string>
+    <string name="package_name">com.quadro.qeventos</string>
+    <string name="custom_url_scheme">com.quadro.qeventos</string>
+</resources>

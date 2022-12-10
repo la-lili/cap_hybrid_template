@@ -1,0 +1,7 @@
+{
+  "name": "cap-hybrid-template",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}

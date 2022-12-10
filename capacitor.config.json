@@ -1,0 +1,14 @@
+{
+  "appId": "com.lalili.cap.template",
+  "appName": "Capacitor Hybrid App Template",
+  "bundledWebRuntime": false,
+  "webDir": "dist",
+  "server": {
+    "cleartext": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}

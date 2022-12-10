@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.alert-radio-label {
+    white-space: normal !important;
+}
+
+.sc-ion-alert-md-h{
+    --width: 100%;
+}
