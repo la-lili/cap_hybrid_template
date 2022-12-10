@@ -1,13 +1,13 @@
 ## Capacitor cross platform hybrid app template
 
 ### Features
-- Ionic UI KIT
-- Tailwind CSS / Postcss / SASS
-- Vue 3 + Vite 
-- State management with Pinia
-- Vite plugins: PWA, File based routing, Autoimport components and Vue Apis, VueI18n, Preview
-- Capacitor APIs: core, camera, filesystem, hapotics, splash screen, status bar, Sqlite
-- Awesome cordova plugins:  Social sharing, Wonder Push, Core
+- Ionic UI KIT.
+- Tailwind CSS / Postcss / SASS.
+- Vue 3 + Vite .
+- State management with Pinia.
+- Vite plugins: PWA, File based routing, Autoimport, VueI18n, Preview.
+- Capacitor APIs: core, camera, filesystem, hapotics, splash screen, status bar, Sqlite.
+- Awesome cordova plugins:  Social sharing, Wonder Push, Core.
 
 Start the dev server
 ```bash
