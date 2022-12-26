@@ -5,30 +5,30 @@
     ]
   },
   "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
+    "baseUrl": ".",
+    "module": "ESNext",
+    "target": "ESNext",
     "importHelpers": true,
     "sourceMap": true,
-    "baseUrl": ".",
     "strict": true,
     "esModuleInterop": true,
-    "jsx": "preserve",
     "skipLibCheck": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "noUnusedLocals": true,
     "strictNullChecks": true,
     "allowJs": true,
+    "noImplicitAny": false,
     "forceConsistentCasingInFileNames": true,
     "allowSyntheticDefaultImports": true,
-    "isolatedModules": true,
     "noEmit": true,
     "types": [
       "vite/client",
       "vue/ref-macros",
       "vite-plugin-pwa/client",
       "vite-plugin-pages/client",
-      "shims-vue.d"
+      "shims-vue.d.ts",
+      "@intlify/unplugin-vue-i18n/messages"
     ],
     "paths": {
       "~/*": [

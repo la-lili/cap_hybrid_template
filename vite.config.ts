@@ -1,12 +1,11 @@
 import path from 'path'
 import { defineConfig } from 'vite'
-import Preview from 'vite-plugin-vue-component-preview'
 import Vue from '@vitejs/plugin-vue'
 import Pages from 'vite-plugin-pages'
 import Components from 'unplugin-vue-components/vite'
 import AutoImport from 'unplugin-auto-import/vite'
+import VueI18nPlugin from '@intlify/unplugin-vue-i18n/vite'
 import { VitePWA } from 'vite-plugin-pwa'
-import VueI18n from '@intlify/vite-plugin-vue-i18n'
 export default defineConfig({
   resolve: {
     alias: {
@@ -15,7 +14,6 @@ export default defineConfig({
   },
 
   plugins: [
-    Preview(),
     Vue({
       include: [/\.vue$/, /\.md$/],
       reactivityTransform: true,
@@ -37,7 +35,9 @@ export default defineConfig({
       dts: 'src/auto-imports.d.ts',
       dirs: [
         'src/composables',
+        'src/components',
         'src/store',
+        'src/types',
       ],
       vueTemplate: true,
     }),
@@ -54,39 +54,31 @@ export default defineConfig({
       registerType: 'autoUpdate',
       injectRegister: 'auto',
       strategies: 'generateSW',
-      includeAssets: ['favicon.svg', 'safari-pinned-tab.svg'],
       manifest: {
-        name: 'Hybrid app template',
+        name: 'APP NAME LONG',
         short_name: 'HybridAppTemplate',
         theme_color: '#ffffff',
         start_url: './index.html',
         display: 'standalone',
         icons: [
           {
-            src: '/pwa-192x192.png',
+            src: '/android-chrome-192x192.png',
             sizes: '192x192',
             type: 'image/png',
           },
           {
-            src: '/pwa-512x512.png',
-            sizes: '512x512',
+            src: '/android-chrome-384x384.png',
+            sizes: '384x384',
             type: 'image/png',
-          },
-          {
-            src: '/pwa-512x512.png',
-            sizes: '512x512',
-            type: 'image/png',
-            purpose: 'any maskable',
           },
         ],
       },
     }),
-    // https://github.com/intlify/bundle-tools/tree/main/packages/vite-plugin-vue-i18n
-    VueI18n({
-      runtimeOnly: true,
+    // https://github.com/intlify/bundle-tools/tree/main/packages/unplugin-vue-i18n
+    VueI18nPlugin({
+      runtimeOnly: false,
       compositionOnly: true,
       include: [path.resolve(__dirname, 'locales/**')],
     }),
   ],
 })
-
