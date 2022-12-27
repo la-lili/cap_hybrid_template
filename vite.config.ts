@@ -6,6 +6,8 @@ import Components from 'unplugin-vue-components/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import VueI18nPlugin from '@intlify/unplugin-vue-i18n/vite'
 import { VitePWA } from 'vite-plugin-pwa'
+import Unocss from 'unocss/vite'
+
 export default defineConfig({
   resolve: {
     alias: {
@@ -49,14 +51,19 @@ export default defineConfig({
       include: [/\.vue$/, /\.vue\?vue/, /\.md$/],
       dts: 'src/components.d.ts',
     }),
+
+
+    // https://github.com/antfu/unocss
+    // see unocss.config.ts for config
+    Unocss(),
     // https://github.com/antfu/vite-plugin-pwa
     VitePWA({
       registerType: 'autoUpdate',
       injectRegister: 'auto',
       strategies: 'generateSW',
       manifest: {
-        name: 'APP NAME LONG',
-        short_name: 'HybridAppTemplate',
+        name: 'Hybrid App Template',
+        short_name: 'capt',
         theme_color: '#ffffff',
         start_url: './index.html',
         display: 'standalone',

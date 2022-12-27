@@ -4,6 +4,7 @@ import { IonicVue } from '@ionic/vue'
 import { defineCustomElements } from '@ionic/pwa-elements/loader'
 import { createI18n } from 'vue-i18n'
 import { createRouter, createWebHistory } from '@ionic/vue-router'
+import messages from '@intlify/unplugin-vue-i18n/messages'
 import App from './App.vue'
 import routes from '~pages'
 /* Core CSS required for Ionic components to work properly */
@@ -21,17 +22,13 @@ import '@ionic/vue/css/flex-utils.css'
 import '@ionic/vue/css/display.css'
 /* Theme variables */
 import './theme/variables.css'
+/* unocss styles */
+import '@unocss/reset/tailwind.css'
+//import './styles/main.css'
+import 'uno.css'
 
 defineCustomElements(window)
 const pinia = createPinia()
-const messages = Object.fromEntries(
-  Object.entries(
-    import.meta.glob<{ default: any }>('../../locales/*.y(a)?ml', { eager: true }))
-    .map(([key, value]) => {
-      const yaml = key.endsWith('.yaml')
-      return [key.slice(14, yaml ? -5 : -4), value.default]
-    }),
-)
 const i18n = createI18n({
   legacy: false,
   locale: 'en',
